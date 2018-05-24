@@ -1,0 +1,19 @@
+/home/xiuwei/C_Practise/Project_11_1/main.c: In function ‘main’:
+/home/xiuwei/C_Practise/Project_11_1/main.c:21:3: error: unknown type name ‘walk’
+   walk the list and display each address
+   ^
+/home/xiuwei/C_Practise/Project_11_1/main.c:21:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘list’
+   walk the list and display each address
+            ^
+/home/xiuwei/C_Practise/Project_11_1/main.c:25:42: error: ‘buff’ undeclared (first use in this function)
+     getnameinfo(p->ai_addr,p->ai_addrlen,buff,MAXLINE,NULL,flags);
+                                          ^
+/home/xiuwei/C_Practise/Project_11_1/main.c:25:42: note: each undeclared identifier is reported only once for each function it appears in
+/home/xiuwei/C_Practise/Project_11_1/main.c:25:5: error: too few arguments to function ‘getnameinfo’
+     getnameinfo(p->ai_addr,p->ai_addrlen,buff,MAXLINE,NULL,flags);
+     ^
+In file included from /usr/include/csapp.h:23:0,
+                 from /home/xiuwei/C_Practise/Project_11_1/main.c:1:
+/usr/include/netdb.h:677:12: note: declared here
+ extern int getnameinfo (const struct sockaddr *__restrict __sa,
+            ^
